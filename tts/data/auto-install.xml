@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="eng">
+<com.izforge.izpack.panels.hello.HelloPanel id="welcome"/>
+<com.izforge.izpack.panels.licence.LicencePanel id="license"/>
+<com.izforge.izpack.panels.target.TargetPanel id="install_dir">
+<installpath>/usr/bin/TTS</installpath>
+</com.izforge.izpack.panels.target.TargetPanel>
+<com.izforge.izpack.panels.packs.PacksPanel id="pack_select">
+<pack index="0" name="JMeter" selected="true"/>
+<pack index="1" name="Base" selected="true"/>
+<pack index="2" name="TTS_JMeter_plugins" selected="true"/>
+<pack index="3" name="TTS_Diameter_Client" selected="true"/>
+<pack index="4" name="TTS_Diameter_Common" selected="true"/>
+<pack index="5" name="TTS_Diameter_Server" selected="true"/>
+<pack index="6" name="TTS_JUNIT" selected="true"/>
+<pack index="7" name="TTS_LDAP" selected="true"/>
+<pack index="8" name="TTS_RestJira" selected="true"/>
+<pack index="9" name="TTS_Skins" selected="false"/>
+</com.izforge.izpack.panels.packs.PacksPanel>
+<com.izforge.izpack.panels.install.InstallPanel id="install"/>
+<com.izforge.izpack.panels.shortcut.ShortcutPanel id="shortcut">
+<createMenuShortcuts>false</createMenuShortcuts>
+<programGroup>TTS</programGroup>
+<createDesktopShortcuts>false</createDesktopShortcuts>
+<createStartupShortcuts>false</createStartupShortcuts>
+<shortcutType>user</shortcutType>
+</com.izforge.izpack.panels.shortcut.ShortcutPanel>
+<com.izforge.izpack.panels.finish.FinishPanel id="finish"/>
+</AutomatedInstallation>
